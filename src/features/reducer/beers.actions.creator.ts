@@ -19,12 +19,12 @@ export const deleteBeersCreator = createAction<BeersStructure["id"]>(
 );
 
 export function addCreator(finalBeers: BeersStructure): any {
-  throw new Error("Function not implemented.");
+  throw new Error("Function not executed.");
 }
 export function updateCreator(finalBeers: void): any {
-  throw new Error("Function not implemented.");
+  throw new Error("Function not executed.");
 }
 
 export function deleteCreator(id: number): any {
-  throw new Error("Function not implemented.");
+  throw new Error("Function not executed.");
 }
