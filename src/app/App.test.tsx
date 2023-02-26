@@ -5,7 +5,7 @@ import App from "./App";
 
 describe("Given the App component", () => {
   describe("When it's rendered", () => {
-    test("Then it should contain form", () => {
+    test("Then it should contain app", () => {
       render(
         <Provider store={store}>
           <App></App>
