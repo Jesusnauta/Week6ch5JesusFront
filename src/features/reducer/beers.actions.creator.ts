@@ -17,3 +17,14 @@ export const createBeersCreator = createAction<BeersStructure>(
 export const deleteBeersCreator = createAction<BeersStructure["id"]>(
   beerActions.DeleteBeer
 );
+
+export function addCreator(finalBeers: BeersStructure): any {
+  throw new Error("Function not implemented.");
+}
+export function updateCreator(finalBeers: void): any {
+  throw new Error("Function not implemented.");
+}
+
+export function deleteCreator(id: number): any {
+  throw new Error("Function not implemented.");
+}
